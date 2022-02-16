@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import DictionaryApp from "./DictionaryApp";
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <DictionaryApp />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
