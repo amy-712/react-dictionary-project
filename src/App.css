@@ -1,38 +1,37 @@
-.App {
+.dictionaryApp {
+  font-family: "Redressed", cursive;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: grey;
+  padding: 10px;
+  background-color: rgba(238, 194, 194, 0.4);
+}
+.dictionaryApp h1 {
+  text-align: center;
+  color: #d7acd4;
+
+  font-size: 96px;
+}
+.dictionaryAppWrapper {
+  max-width: 650px;
+  margin: 30px auto;
+}
+.Dictionary {
+  margin: 20px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.first-color {
+  background: #bae5d5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.second-color {
+  background: #d7acd4;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.third-color {
+  background: #eec2c2;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fourth-color {
+  background: #f2f2b0;
 }
