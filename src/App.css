@@ -1,5 +1,5 @@
 .dictionaryApp {
-  font-family: "Redressed", cursive;
+  font-family: "Times New Roman", Times, serif;
   border: 1px solid;
   border-radius: 10px;
   border-color: grey;
@@ -20,6 +20,20 @@
   margin: 20px;
   text-align: center;
 }
+.Meaning {
+  text-align: left;
+}
+.Definition h2 {
+  font-weight: bold;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.partOfSpeech {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
 .first-color {
   background: #bae5d5;
 }
