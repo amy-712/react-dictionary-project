@@ -78,3 +78,12 @@
   opacity: 0.7;
   font-style: italic;
 }
+.Synonyms {
+  text-transform: capitalize;
+}
+.Synonyms li {
+  font-size: 13px;
+  display: inline-block;
+  padding-right: 10px;
+  line-height: 1;
+}
