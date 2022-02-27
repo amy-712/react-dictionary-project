@@ -24,6 +24,7 @@
   text-align: left;
 }
 .Definition h2 {
+  font-size: 36px;
   font-weight: bold;
   text-align: left;
   text-transform: capitalize;
@@ -52,4 +53,22 @@
 
 .fourth-color {
   background: #f2f2b0;
+}
+.Dictionary section {
+  background: rgba(238, 194, 194, 0.4);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+  margin: 20px 0;
+}
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+.Example {
+  font-size: 14px;
+  opacity: 0.7;
+  font-style: italic;
 }
